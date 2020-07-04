@@ -14,5 +14,5 @@ func main() {
 		input = os.Args[1]
 	}
 
-	fmt.Println(strconv.FormatInt(int64(hashcode.String(input)), 10))
+	fmt.Print(strconv.FormatInt(int64(hashcode.String(input)), 10))
 }
